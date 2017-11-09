@@ -1,0 +1,19 @@
+body {
+  font-family: 'Inconsolata', monospace;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-family: 'Vollkorn SC', serif;
+}
+
+/* #content {
+  margin-top: 15px;
+}
+
+.index-item button, 
+.index-item .card-subtitle, 
+.post-item .lead,
+.post-item button {
+  font-size: .7rem;
+} */
