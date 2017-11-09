@@ -16,7 +16,7 @@ function getMovies() {
 
 function buildItem(movie) {
   const { id, title, director, year, star_rating } = movie
-  let star = '⭐️ '
+  const star = '⭐️ '
   let indexRow = `
     <tr id=${id}>
       <td><a href="movie.html#/movie/${id}">${title}</a></td>
