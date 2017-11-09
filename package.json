@@ -4,7 +4,8 @@
   "description": "This is the client end of a movie ratings website done as a project for Galvanize.",
   "main": "index.js",
   "scripts": {
-    "test": "none"
+    "test": "none",
+    "dev": "live-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/KevinUSCU/movie-crud-client/issues"
   },
-  "homepage": "https://github.com/KevinUSCU/movie-crud-client#readme"
+  "homepage": "https://github.com/KevinUSCU/movie-crud-client#readme",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
 }
