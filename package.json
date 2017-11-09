@@ -1,0 +1,19 @@
+{
+  "name": "movie-crud-client",
+  "version": "0.0.1",
+  "description": "This is the client end of a movie ratings website done as a project for Galvanize.",
+  "main": "index.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinUSCU/movie-crud-client.git"
+  },
+  "author": "Kevin Springer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinUSCU/movie-crud-client/issues"
+  },
+  "homepage": "https://github.com/KevinUSCU/movie-crud-client#readme"
+}
