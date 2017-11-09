@@ -19,7 +19,7 @@ function buildItem(movie) {
   let star = '⭐️ '
   let indexRow = `
     <tr id=${id}>
-      <td><a href="display-movie.html#/movie/${id}">${title}</a></td>
+      <td><a href="movie.html#/movie/${id}">${title}</a></td>
       <td>${director}</td>
       <td>${year}</td>
       <td>${star.repeat(star_rating)}</td>
