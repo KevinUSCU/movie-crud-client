@@ -1,6 +1,6 @@
 const table = $('tbody')
 displayIndex()
-listen()
+indexListen()
 
 function displayIndex() {
   table.html('')
@@ -30,7 +30,7 @@ function buildItem(movie) {
   return indexRow
 }
 
-function listen() {
+function indexListen() {
   table[0].addEventListener('click', event => {
     const clicked = $(event.target)
     if (clicked.hasClass('btn')) {
