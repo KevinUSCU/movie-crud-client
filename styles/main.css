@@ -7,6 +7,9 @@ body {
   font-family: 'Vollkorn SC', serif;
 }
 
+img.poster {
+  width: 100%;
+}
 /* #content {
   margin-top: 15px;
 }
