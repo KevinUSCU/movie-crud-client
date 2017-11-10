@@ -5,3 +5,7 @@ function getMovieAddress() {
 function getMovie(id) {
   return axios.get(`${baseURL}/movies/${id}`)
 }
+
+function setMovieAddress (movieId) {
+  window.location.hash = `#/movie/${movieId}`
+}
