@@ -11,7 +11,7 @@ function displayMovie(id) {
         <br>
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-4">
+            <div class="col-md-4">
               <div class="card">
                 <h2 class="card-header">${title}</h2>
                 <div class="card-body">
@@ -22,7 +22,7 @@ function displayMovie(id) {
                 </div>
               </div>
             </div>
-            <div class="col-5">
+            <div class="col-md-5">
               <div class="card">
                 <img class="card-body poster" src=${poster_url || "images/placeholder.png"} alt="Movie poster">
               </div>
