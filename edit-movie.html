@@ -15,6 +15,7 @@
     <!-- Local Styles & Scripts -->
     <link rel="stylesheet" href="styles/main.css">
     <script defer src="scripts/main.js"></script>
+    <script src="scripts/select-movie.js"></script>
     <script defer src="scripts/edit-movie.js"></script>
   </head>
   <body>
@@ -41,22 +42,32 @@
         <div class="col col-md-6"
           <form>
             <div class="form-group">
-              <label for="movieTitle">Title</label>
-              <input type="text" class="form-control" id="movieTitle" aria-describedby="titleHelp" placeholder="Enter movie title">
-              <small id="titleHelp" class="form-text text-muted">This field is required.</small>
+              <label for="movie-title">Title</label>
+              <input type="text" class="form-control" id="movie-title" aria-describedby="title-help" placeholder="Enter movie title">
+              <small id="title-help" class="form-text text-muted">This field is required.</small>
             </div>
             <div class="form-group">
-              <label for="movieDirector">Director</label>
-              <input type="text" class="form-control" id="movieDirector" placeholder="The visionary artist">
-              <label for="movieYear">Year</label>
-              <input type="text" class="form-control" id="movieYear" placeholder="Year of release">
-              <label for="movieRating">Rating</label>
-              <input type="number" min="1" max="5" class="form-control" id="movieRating" placeholder="1 to 5 stars with 5 being the best!">
-              <label for="moviePoster">Poster URL</label>
-              <input type="url" class="form-control" id="moviePoster" placeholder="Paste a link to an image of the movie poster">
+              <label for="movie-director">Director</label>
+              <input type="text" class="form-control" id="movie-director" placeholder="The visionary artist">
+              <label for="movie-year">Year</label>
+              <input type="text" class="form-control" id="movie-year" placeholder="Year of release">
+              <label for="movie-rating">Rating</label>
+              <input type="number" min="0" max="5" class="form-control" id="movie-rating" placeholder="Out of 5 stars">
+              <label for="movie-poster">Poster URL</label>
+              <input type="url" class="form-control" id="movie-poster" placeholder="Paste a link to an image of the movie poster">
             </div>
-            <button type="submit" class="btn btn-outline-primary">Submit</button>
+            <button id="save-button" type="submit" class="btn btn-outline-primary">Save</button>
+            <br>
+            <br>
+            <div id="message">
+              <!-- Alert message auto-added here -->
+            </div>
           </form>
+        </div>
+        <div class="col-md-5">
+          <div class="card">
+            <img class="card-body poster" src="images/placeholder.png" alt="Movie poster">
+          </div>
         </div>
       </div>
     </main>
